@@ -32,7 +32,7 @@ const AddUserForm = () => {
   };
 
   return (
-    <div>
+    <div className='form-container'>
       <h2>Add User</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor='name'>Name</label>
@@ -55,8 +55,10 @@ const AddUserForm = () => {
           onChange={handleInput}
         />
         <br />
+        <div className='button-container'>
           <button>Add new User</button>
           <button onClick={() => handleCancel()}>Cancel</button>
+        </div>
       </form>
     </div>
   );
