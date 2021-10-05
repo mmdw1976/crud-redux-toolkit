@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: .2rem 0;
+}
+button:nth-child(2) {
+    margin: 0 .5rem;
+}
+
+button {
+    padding: .4rem .6rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    transition: .3s;
+}
+
+button:hover {
+    color: #ff9900;
+}
+
+button:active {
+    transform: scale(.95);
+}

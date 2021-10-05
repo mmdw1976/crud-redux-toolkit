@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-card-container {
+    padding: 1rem;
+    border: 1px solid rgba(200, 200, 200, .5);
+    margin: 1rem;
+    box-shadow: -5px 5px 3px rgba(200, 200, 200, .5);
+    max-width: 400px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+

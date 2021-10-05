@@ -24,6 +24,7 @@ const EditUserForm = () => {
         e.preventDefault();
 
         dispatch(updateUser(user));
+        history.push('/');
     }
 
     return ( 
