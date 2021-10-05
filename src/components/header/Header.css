@@ -33,3 +33,7 @@ header {
     align-items: center;
     justify-content: center;
 }
+
+.header-content button {
+    margin: 1rem;
+}
